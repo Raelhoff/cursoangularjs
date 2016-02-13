@@ -1,0 +1,27 @@
+
+*/
+    =   -> atributo
+    ==  -> comparações de valores
+    === -> comparção sem conversão
+    
+    var tes = 1
+            if(tes === '1'){
+                console.log("OK")
+            }else{
+                console.log("FALSE")
+            }        
+*/
+
+
+if(pessoa.status == true){
+                console.log("o usuario " + pessoa.nome + " esta ativo. ")
+            }else{
+                console.log("o usuario " + pessoa.nome + " esta bloqueado. ")
+            }
+            
+            var total = 1 + 2;
+            console.log(total);
+        
+            for(var i = 1; i <= 10; i++){
+                document.write("<p>" + i + "</p>");
+            }
