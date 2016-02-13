@@ -1,13 +1,11 @@
-<html ng-app ng-init="valor1 =5; valor2 = 10;">
+<html ng-app ng-init="pessoa = {nome : 'Rafael Wilmar'}">
     <head>
-        <time> Exemplo 03 - ngBind </time>
+        <time> Exemplo 03 - ngBind já</time>
+        <meta charset="utf-8" >
         <script src="js/angular/angular.min.js"></script>
-        
      </head>
     <body>
-        <h1 ng-bind="valor1 + valor2"></h1>
-        <h1 ng-bind="valor1 / valor2"></h1>
-        {{valor1 + valor2}}
-        {{valor1 / valor2}}
+        <h1> Seja bem-vindo, <expressao1 ng-bind="pessoa.nome"></expressao1></h1>
+        <input type="text" ng-model="pessoa.nome">
     </body>
 </html>
