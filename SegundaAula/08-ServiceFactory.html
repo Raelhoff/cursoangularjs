@@ -6,17 +6,21 @@
     <body>
         <div ng-controller="appsef">
             Controller1
+			{{ pessoa.nome}}
         </div>
         
         <div ng-controller="appsef2">
             Controller2
+			{{ pessoa2.nome }}
         </div>
         
         <script src="../js/angular/angular.min.js"></script>
         <script src="../js/angular/app.module.js"></script>
         
-        <!-- Services -->
+        <!-- Services & Factory  -->
         <script src="../js/angular/appsef.service.js"></script>
+        <script src="../js/angular/appsef.factory.js"></script>
+        
         <!-- Controllers -->
         <script src="../js/angular/appsef.controller.js"></script> 
     </body>
