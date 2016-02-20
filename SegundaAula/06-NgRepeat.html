@@ -1,0 +1,27 @@
+<html ng-app="app">
+    <head>
+        <title>Exemplo 06 - NgRepeat</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div ng-controller="appngrepeat">
+            <input type="text" id="nomepessoa">
+            <input type="text" id="idadepessoa">
+            <input type="text" id="statuspessoa">
+            <button type="button" ng-click="adicionaPessoa()">Adiciona</button>
+            
+            <ul>
+                <li ng-repeat="curso in cursos">{{curso}}</li>
+            </ul>
+            
+            <ul>
+                <li ng-repeat="aluno in alunos">{{NomeIdade(aluno)}}</li>
+            </ul>
+            
+        </div>
+        <script src="../js/angular/angular.min.js"></script>
+        <script src="../js/angular/app.module.js"></script>
+        <!-- Controller -->
+        <script src="../js/angular/appngrepeat.controller.js"></script>
+    </body>
+</html>
