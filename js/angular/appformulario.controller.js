@@ -7,7 +7,6 @@ app.controller('appformulario',function($scope){
         $scope.pessoas.push(pessoa);
         $scope.pessoas = novaPessoa();
     }
-    
     console.log($scope.pessoa);
 });
 
